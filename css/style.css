@@ -1,0 +1,487 @@
+/*header */
+.container-header {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(237, 236, 236);
+}
+.container-header li{
+    margin-top: 21px;
+}
+.container-header li a{
+    font-size: smaller;
+    margin: -20px;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(20, 50, 17, 0.796);
+    font-weight: bold;
+}
+
+.slideshow-container{
+    height: 200px;
+    width: 100%;
+    background-color: #C6C6C6;
+}
+
+
+#logo {
+    height: 100%;
+    float: left;
+}
+
+header{
+    width: 100%;
+    top: 100%;
+}
+/* footer */
+.footer {
+    position:fixed;
+    bottom: 0;
+    height: 50px;
+}
+
+#foot{
+    float: left;
+    margin-left: 45%;
+    margin-top: 1%;
+    color: white;
+    font-size: 20px;
+}
+/* body/container */
+body{
+    background-color: white;
+}
+.blockform {
+    max-width: max-content;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #263e50;
+    border-radius: 8px;
+  }
+.container {
+    height: auto;
+    width: 1300px;
+    margin: auto;
+}
+.body-login{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.title h1{
+    padding-bottom: 10px;
+    font-weight:lighter;
+    color: white;
+    text-align: center;
+}
+
+/* lettertypes */
+h1{
+    font-family:  Arial, Helvetica, sans-serif;
+}
+li {
+    float: left;
+    list-style-type: none;
+    font-size: 20px;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 5%;
+    margin-top: 11px;
+}
+a.klachtverwijderen{
+    color: green;
+}
+input{
+    background-color: white;
+    width: 200px;
+    padding:10px;
+    border-radius:5px;
+}
+a {
+    font-family:  Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    cursor: auto;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: rgb(208, 208, 208);
+}
+
+
+p{
+    font-family:  Arial, Helvetica, sans-serif;
+}
+.block-100p{
+    font-size: 22px;
+}
+.rood{
+    color: red;
+}
+.message{
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+
+}
+/*div */
+.divleft{
+    width: 50%;
+    float: left;
+
+}
+.divright{
+
+    width: 50%;
+    float: right;
+
+}
+.block-33 {
+    width: 30%;
+    height: 500px;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+.block-center{
+    width: 50%;
+    height: 200px;
+    float: right;
+    margin-right: 25%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.block-center h1{
+    text-align: center;
+}
+.block-100 {
+    width: 50%;
+    height: 200px;
+    float: right;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-play-state: running; 
+}
+.block-80 {
+    width: 60%;
+    height: 200px;
+    float: right;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.block-100 p{
+    font-size: large;
+}
+.activiteitblock{
+    height: 100%;
+    width: 400px;
+    float: left;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-left: 30%;
+}
+.blockform{
+    width: max-content;
+    height: min-content;
+    padding: 10px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.profilepageform{
+    width: 40%;
+    height: min-content;
+    padding: 10px;
+    background-color: antiquewhite;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.right{
+    margin-right: 0px;
+}
+/* table */
+table{
+    float: left;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+th, td{
+    font-size: 20px;
+    width: 80px;
+    list-style-type: none;
+    border: 1px solid black;
+}
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+/* in de DIV */
+.omschrijving{
+    font-size: 12px;
+    width: 300px;
+}
+.img-home{
+    width: 100%;
+    height: 200px;
+}
+.img-activeiten{
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+.foto{
+    width: 200px;
+}
+button {
+    background-color: #1ab188;
+    border: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* animatie*/
+
+.img-slide{
+    float: left;
+    width: 400px;
+    height: 200px;
+    vertical-align: middle;
+}
+.middenstuk{
+    float: left;
+    width: 47%;
+    height: 200px;
+}
+.quotesmidden{
+
+    float: left;
+    font-size: 30px;
+    color: white;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.headerprofilepage{
+    margin-left: -3000px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-weight: bold;
+    font-size: 14px
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+@media screen and (max-width: 992px) {
+    .middenstuk{
+        float: left;
+        width: 40%;
+        height: 200px;
+    }
+    form{
+        width: 30%;
+    }
+    li{
+        font-size: 13px;
+    }
+    .block-33{
+        margin-right: 6%;
+        width: 200px;
+    }
+    table{
+        width: 30%;
+    }
+    .right{
+        margin-right: 40%;
+    }
+    th, td{
+        font-size: 15px;
+    }
+    .img-slide{
+        width: 30%;
+    }
+    .block-100p{
+        width: 50%;
+    }
+    .block-100{
+        margin-bottom: 150px;
+    }
+    .activiteitblock{
+        margin-left: 0px;
+    }
+    .message{
+        font-size: 30px;
+        margin-right: 40%;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .middenstuk{
+        width: 36%;
+    }
+    .img-slide{
+        width: 32%;
+    }
+    #logo{
+        width: 200px;
+    }
+    form{
+        width: 30%;
+    }
+    li{
+        font-size: 17px;
+    }
+    .block-33{
+        margin-right: 6%;
+        width: 100px;
+        font-size: 10px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .img-home{
+        height: 100px;
+    }
+    table{
+        width: 30%;
+    }
+    .right{
+        margin-right: 60%;
+    }
+    th, td{
+        font-size: 9px;
+    }
+    .activiteitblock{
+        font-size: 10px;
+        width: 300px;
+    }
+    .img-activeiten{
+        width: 100%;
+    }
+    .ruimte{
+        margin-right: 70%;
+    }
+    .quotesmidden{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .message {
+        margin-right: 40%;
+    }
+    .block-100{
+        width: 600px;
+        margin-right: 50%;
+    }
+    .block-100p{
+        font-size: 15px;
+    }
+    .message{
+        margin-right: 70%;
+        font-size: 15px;
+        margin-top: -5%;
+    }
+
+}
+
+#homepic{
+    margin-top: 15px;
+    margin-left: 125px;
+    width: 500px;
+    position: relative;
+    animation-name: homeslide;
+    animation-duration: 2s;
+    animation-play-state: running; 
+}
+#centerpic{
+    margin-top: 15px;
+    margin-left: 75px;
+    width: 500px;
+    position: relative;
+    animation-name: centerslide;
+    animation-duration: 2s;
+    animation-play-state: running; 
+}
+
+@keyframes opacity {
+    from  {opacity: 0;}
+    to   {opacity: 1;}
+  }
+
+@keyframes homeslide {
+    from  {left:-300px; opacity: 0;}
+    to   {left:0px; opacity: 1;}
+  }
+  @keyframes centerslide {
+    from  {left:-300px; opacity: 0;}
+    to   {left:0px; opacity: 1;}
+  }
