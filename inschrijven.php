@@ -8,7 +8,7 @@
     $stmt1->execute([$_SESSION["id"]]);
     $result1 = $stmt1->fetchAll();
     if (!empty($result1)) {
-        echo "U heeft zich al ingescherven!";
+        echo '<script>alert("U heeft zich al ingeschreven!")</script>';
     } else {
         if (isset($_POST['submit'])) {
             $sql = "INSERT INTO `inschrijven`(`id`, `tijd`) VALUES (?, NOW())";
